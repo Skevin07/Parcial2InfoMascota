@@ -13,20 +13,20 @@ class MainActivity : AppCompatActivity()
     private lateinit var tvw_Resultado:TextView
     private lateinit var lv_animales:ListView
 
-    private val mascota = arrayOf("Perro", "Gato", "Perico", "Elefante",
-        "Rinoceronte")
+    private val mascota = arrayOf("Conejo", "Oso polar", "Leopardo", "Loro cabeza amarilla",
+        "Cacomixtle tropical")
 
-    private val especie = arrayOf("Canis familiaris", "Felis catus", "P. picta (Müller, 1776)",
-        "Loxodonta africana", "Renocirontedao")
+    private val especie = arrayOf("Canis ", " catus", "picta (pitron)",
+        "Colox", "Milex")
 
-    private val color = arrayOf("Blanco", "Negro", "Verde",
-        "Gris", "Gris")
+    private val color = arrayOf("Azul", "Blanco", "Amarillo",
+        "Plateado", "Morado")
 
-    private val sexo = arrayOf("Macho", "Hembra",
+    private val sexo = arrayOf("Macho", "Macho",
         "Hembra", "Macho", "Macho")
 
-    private val peso = arrayOf("25", "10", "3",
-        "230", "250")
+    private val peso = arrayOf("255", "200", "900",
+        "455", "600")
 
 
     override fun onCreate(savedInstanceState: Bundle?)
